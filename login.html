@@ -2,20 +2,38 @@
 <html lang="pt-br">
 <head>
 <meta charset="UTF-8">
+<link rel="stylesheet" href="style.css">
+<!-- Compiled and minified CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+<!-- Compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<link rel="stylesheet" href="css/style.css">
+    
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <script src="js/main.js"></script>
 <link rel="stylesheet" href="css/style.css">
-<title>Document</title>
+<title>515 CUSTOM</title>
 </head>
 <body>
-     
-    <form>
-      
-        <input type="email" placeholder="email" id="email">
-        <input type="password" placeholder="senha" id="senha">
-        <input type="submit" onclick="logar(); return false">
-        
-    </form>
+    <img src="img/imagembase.png" alt="fundo" id="carro">
+    <div id="texto">Insira suas informações
+      para acompanhar o
+      seu projeto</div>
+    <div class="row">
+      <div class="input-field col s6" id="input1">
+        <input placeholder="meu email..." id="email" type="text" class="validate" >
+        <label class="active" for="first_name2" id="label1">Email</label>
+      </div>
+    </div>
+    <div class="row">
+      <div class="input-field col s6" id="input1">
+        <input placeholder="sua senha..." id="senha" type="text" class="validate" >
+        <label class="active" for="first_name2" id="label1">Senha</label>
+      </div>
+    </div>
+    
+    <a class="waves-effect waves-light btn" id="bt" onclick="logar(); return false">ENTRAR</a>
 </body>
 </html>
