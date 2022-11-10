@@ -1,8 +1,16 @@
 function logar(){
 
       let login = document.getElementById('email').value;
-      let senha = document.getElementById('senha').value;
+      let password = document.getElementById('senha').value;
       
+      const person = {
+        login,
+        password
+    }
+    
+    window.localStorage.setItem('user', JSON.stringify(person));
+
+
       console.log(email.value+senha.value)
       if(login == "admin@gmail.com" && senha == "admin"){
         localStorage.setItem("acesso", true)
