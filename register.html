@@ -2,7 +2,7 @@
 <html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
-    <link rel="stylesheet" href="css/styleLogin.css" />
+    <link rel="stylesheet" href="style.css" />
     <!-- Compiled and minified CSS -->
     <link
       rel="stylesheet"
@@ -21,7 +21,19 @@
   </head>
   <body>
     <img src="img/imagembase.png" alt="fundo" id="carro" />
-    <div id="texto">Insira suas informações para acompanhar o seu projeto</div>
+    <div id="texto">Insira suas informações para se cadastrar</div>
+    <div class="row">
+      <div class="input-field col s6" id="input1">
+        <input
+          placeholder="Digite seu nome e sobrenome..."
+          id="name"
+          type="text"
+          class="validate"
+          required
+        />
+        <label class="active" for="first_name2" id="label1">Nome</label>
+      </div>
+    </div>
     <div class="row">
       <div class="input-field col s6" id="input1">
         <input
@@ -29,6 +41,7 @@
           id="email"
           type="email"
           class="validate"
+          required
         />
         <label class="active" for="first_name2" id="label1">Email</label>
       </div>
@@ -37,9 +50,10 @@
       <div class="input-field col s6" id="input1">
         <input
           placeholder="sua senha..."
-          id="password"
+          id="senha"
           type="password"
           class="validate"
+          required
         />
         <label class="active" for="first_name2" id="label1">Senha</label>
       </div>
@@ -48,8 +62,8 @@
     <a
       class="waves-effect waves-light btn"
       id="bt"
-      onclick="logar(); return false"
-      >ENTRAR</a
+      onclick="register(); return false"
+      >CADASTRAR</a
     >
   </body>
 </html>
