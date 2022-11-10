@@ -11,3 +11,13 @@ function logar(){
         alert('usuario ou senha incorreta')
       }
 }
+function comentario(){
+
+let 
+
+
+
+
+
+
+}

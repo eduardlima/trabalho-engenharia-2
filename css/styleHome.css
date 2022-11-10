@@ -1,0 +1,226 @@
+*{
+padding: 0;
+margin: 0;
+}
+body{
+    background-color: #2F2F2F;
+}
+#img1{
+    width: 100%;
+    position: absolute;
+}
+#header{
+    width: 100%;
+    position: relative;
+}
+menu{
+    color: white;
+    text-align: center;
+    width: auto;
+    padding-top: 5%;
+    font-family: 'Montserrat';
+    font-weight: bold;
+}
+#logo{
+    position: absolute;
+    width: 200px;
+    margin-left: 5%;
+    margin-top: 3%;
+}
+a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+}
+a:hover{
+    text-decoration: none;
+}
+#titulo {
+    font-family:'Montserrat','arial' ;
+    color: white;
+    position: relative;
+    margin-left: 6%;
+    margin-top: 15%;
+}
+#titulo button:hover{
+    background-color: #a31600;
+}
+#titulo h1{
+    color: #D51E00;
+    font-family: 'Chopsic';
+    font-size: 80px;
+}
+#titulo button{
+    font-family: 'Pervitina Dex';
+    color: white;
+    background-color: #D51E00;
+    border: none;
+    margin-top: 20px;
+    height: 30px;
+    width: 17%;
+    font-size: 17px;
+}
+#linha1{
+    position: absolute;
+    margin-top: 154px;
+    margin-left: 224px;
+}
+#div1{
+    text-align: center;
+}
+#div1 input{
+    height: 100px;
+    background-color: #D51E00
+}
+#imgdiv1{
+    position: absolute;
+    margin-top: 20px;
+    width: 100%;
+}
+#imgmodelo1{
+    height: 10px;
+}
+#div2{
+    margin-top: 400px;
+}
+#div2 section{
+    height: 378px;
+}
+#bodykit{
+    background-image: url(../img/bodykit.png);
+}
+#pintura{
+    background-image: url(../img/pintura.png);
+    padding-left: 00px;
+}
+#performance{
+    background-image: url(../img/performance.png);
+}
+#div3{
+    width: 100%;
+    height: 800px;
+    background-image: url(../img/imgdiv3.png);
+    text-align: center;
+    color: white;
+}
+
+#div3 h2{
+      font-family: 'Montserrat';
+      padding-top: 200px;
+}
+#div3 h1{
+    color: #D51E00;
+    font-family: 'Chopsic';
+    letter-spacing: 5px;
+    font-size: 80px;
+    padding-top: 50px;
+}
+#div3 button{
+    text-decoration: none;
+    margin-top: 100px;
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    border-color: #D51E00;
+    border-width: 10px;
+    background-color: #181818;
+}
+#div3 button:hover{
+    background-color: #D51E00;
+}
+#div3 button h2{
+    font-family: 'chopsic';
+    letter-spacing: 5px;
+    font-size: 30px;
+    padding-top: 0px;
+    color: white;
+}
+#div4{
+    display: flex;
+}
+#div4texto{   
+    font-size: 150%;
+    font-family: 'montserrat','arial';
+    width: 40%;
+    margin-top: 0%;
+    padding: 50px;
+    color: white;
+}
+#div4 img{
+    margin-top: 20%;
+    width: 110%;
+}
+#div4 form{
+    margin-left: 5%;
+    padding: 30px;
+    width: 50%;
+    border-color: #D51E00;
+    border-width: 20px;
+    background-color: #181818;
+}
+#div4 input{
+    background-color: #444444;
+    width: 84%;
+    height: 50px;
+    margin: 30px;
+} 
+#div4 h3{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding-top: 10px;
+    padding-left: 10%;
+}
+#div4 a{
+    font-family: 'Pervitina Dex';
+    color: white;
+    background-color: #D51E00;
+    border: none;
+    margin-left: 37%;
+    margin-top: 5px;
+    height: 50px;
+    width: 20%;
+    font-size: 17px;
+}
+#div5{
+    width: 100%;
+    background-image: url(../img/imgdiv5.png);
+    height: 800px;
+    text-align: center;
+    display: flex;
+    padding-top: 10%;
+}
+#div5 h2{
+    font-family: 'chopsic';
+    letter-spacing: 2px;
+    color: #D51E00;
+    margin-left: 0%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+#div5 h3{
+    font-family: 'Pervitina dex';
+    letter-spacing: 1px;
+    color: white;
+}
+#div5 section{
+    width: 33%;
+}
+footer{
+    background-color: #181818;
+    height: 500px;
+    display: flex;
+    color: white;
+}
+footer section{
+    padding-top: 10%;
+    width: 33%;
+    text-align: center;
+}
+footer h3{
+    letter-spacing: 1px;
+    font-family: 'Pervitina dex';
+}
+footer a{
+    display: block;
+    font-family: 'montserrat';
+}
