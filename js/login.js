@@ -37,5 +37,5 @@ function register(){
   }
   
   window.localStorage.setItem(email, JSON.stringify(person));
-  location.href = "home.html";
+  location.href = "login.html";
 }
