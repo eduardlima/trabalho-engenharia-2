@@ -26,7 +26,7 @@ function register(){
     const person = {
       email,
       password,
-      name
+      name,
   }
 
   const userExists = JSON.parse(window.localStorage.getItem(email));

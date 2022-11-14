@@ -20,9 +20,12 @@
     <title>515 CUSTOM</title>
   </head>
   <body>
+   
     <img src="img/imagembase.png" alt="fundo" id="carro" />
     <div id="texto">Insira suas informações para acompanhar o seu projeto</div>
-    <div class="row">
+    <div class="row"> 
+    <!--<a href="home.html" id="logo"><img src="img/LOGO.png" alt="" id="logo"></a>-->  
+      
       <div class="input-field col s6" id="input1">
         <input
           placeholder="meu email..."
@@ -48,8 +51,15 @@
     <a
       class="waves-effect waves-light btn"
       id="bt"
-      onclick="logar(); return false"
+      onclick="login(); return true"
       >ENTRAR</a
     >
+    <a
+    href="register.html"
+    class="waves-effect waves-light btn"
+    id="bt1"
+    onclick="logar(); return true"
+    >REGISTRISE</a
+  >
   </body>
 </html>

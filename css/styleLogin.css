@@ -1,7 +1,16 @@
+
 body{
     background-color: #2F2F2F;
     background-image: url(../ARTES/phorche.png);
     height: 660px;
+}
+
+#logo{
+    position: absolute;
+    width: 199px;
+    margin-left: 1%;
+    margin-top: 2%;
+    
 }
 #carro{
     height: 660px;
@@ -28,11 +37,21 @@ body{
     background-color: #D51E00;
     font-family: 'Chopsic';
     font-size: 22px;
-    margin-left: 880px;
-    margin-top: 270px;
+    margin-left: 790px;
+    margin-top: 269px;
     width: 150px;
     height: 50px;
     padding-top: 7px;
+}
+#bt1{
+    background-color: #D51E00;
+    font-family: 'Chopsic';
+    font-size: 22px;
+    margin-left: 8px;
+    margin-top: 270px;
+    width: 150px;
+    height: 50px;
+    padding-top: 10px;
 }
 #texto{
     position: absolute;
@@ -44,4 +63,14 @@ body{
     font-family: 'Montserrat';
     font-weight: bold;
     top: 110px;
+}
+#bt2{
+    background-color: #D51E00;
+    font-family: 'Chopsic';
+    font-size: 22px;
+    margin-left: 860px;
+    margin-top: 245px;
+    width: 166px;
+    height: 48px;
+    padding-top: 7px;
 }
