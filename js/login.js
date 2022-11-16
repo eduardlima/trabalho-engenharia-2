@@ -3,7 +3,7 @@ function login(){
     let password = document.getElementById('password').value;
   
    const user = JSON.parse(window.localStorage.getItem(email));
-
+    console.log('passou')
    if(user.email === email && user.password === password) {
     localStorage.setItem("acesso", true)
     location.href = "home.html";

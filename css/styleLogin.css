@@ -22,7 +22,7 @@ body{
 #label1{
     font-size: 23px;
     color: white;
-
+    flex-direction: row;
 }
 #bt{
     background-color: #D51E00;
@@ -30,6 +30,16 @@ body{
     font-size: 22px;
     margin-left: 880px;
     margin-top: 270px;
+    width: 150px;
+    height: 50px;
+    padding-top: 7px;
+}
+#bt2{
+    background-color: #D51E00;
+    font-family: 'Chopsic';
+    font-size: 22px;
+
+    margin-left: 880px;
     width: 150px;
     height: 50px;
     padding-top: 7px;
