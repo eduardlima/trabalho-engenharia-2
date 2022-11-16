@@ -21,6 +21,12 @@ menu{
     font-family: 'Montserrat';
     font-weight: bold;
 }
+#UserIcon{
+    position: absolute;
+    text-align: center;
+    margin-left: 85%;
+    margin-top: 2%;
+}
 #logo{
     position: absolute;
     width: 200px;
@@ -43,7 +49,6 @@ a:hover{
 #titulo button:hover{
     background-color: #a31600;
 }
-
 #titulo button{
     font-family: 'Pervitina Dex';
     color: white;
@@ -58,23 +63,9 @@ a:hover{
     margin-top: 154px;
     margin-left: 224px;
 }
-#div1{
-    text-align: center;
-}
-#div1 input{
-    height: 100px;
-    background-color: #D51E00
-}
-#imgdiv1{
-    position: absolute;
-    margin-top: 20px;
-    width: 100%;
-}
-#imgmodelo1{
-    height: 10px;
-}
+
 #div2{
-    margin-top: 400px;
+    margin-top: 150px;
 }
 #div2 section{
     height: 328px;
@@ -98,17 +89,7 @@ a:hover{
     color: white;
 }
 
-#div3 h2{
-      font-family: 'Montserrat';
-      padding-top: 200px;
-}
-#div3 h1{
-    color: #D51E00;
-    font-family: 'Chopsic';
-    letter-spacing: 5px;
-    font-size: 80px;
-    padding-top: 50px;
-}
+
 #div3 button{
     text-decoration: none;
     margin-top: 30%;
@@ -132,10 +113,12 @@ a:hover{
 #div4{
     display: flex;
 }
-#div4texto{   
+#div4texto{ 
+    background-image: url(../img/imgdiv4.png);
+    background-size: 100%;  
     font-size: 150%;
     font-family: 'montserrat','arial';
-    width: 40%;
+    width: 50%;
     margin-top: 0%;
     padding: 50px;
     color: white;
@@ -145,20 +128,25 @@ a:hover{
     width: 110%;
 }
 #div4 form{
-    margin-left: 5%;
+    margin-left: 0%;
     padding: 30px;
     width: 50%;
     border-color: #D51E00;
     border-width: 20px;
-    background-color: #181818;
+    background-color: #202020;
 }
 #div4 input{
     background-color: #444444;
+    color:white ;
     width: 84%;
     height: 50px;
     margin: 30px;
 } 
-
+#div4 form h3{
+    margin-left: 5%;
+    color: white;
+    font-family: 'arial';
+}
 #div4 a{
     font-family: 'Pervitina Dex';
     color: white;
@@ -200,18 +188,4 @@ footer h3{
 footer a{
     display: block;
     font-family: 'montserrat';
-}
-#bt3{
-    background-color: #a31600;
-    position: absolute;
-    text-align: center;
-    font-size: 25px;
-    width: 20px;
-    margin-left: 89%;
-    margin-top: 5%;
-    padding: 2px;
-    padding-left: 4px;
-    padding-right: 85px;
-    padding-bottom: 1px;
-    font-family: 'Chopsic';
 }
