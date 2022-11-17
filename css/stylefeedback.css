@@ -46,3 +46,20 @@ a:hover{
 #div2{
     height: 50%;
 }
+#img{
+    margin-top: 150px;
+}
+#img section{
+    height: 328px;
+    background-size: 100%;
+}
+#bodykit{
+    background-image: url(../img/bodykit.png);
+}
+#pintura{
+    background-image: url(../img/pintura.jpg);
+    padding-left: 00px;
+}
+#performance{
+    background-image: url(../img/performance.png);
+}
