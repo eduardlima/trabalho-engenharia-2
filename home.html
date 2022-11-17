@@ -51,16 +51,18 @@
               DA 515 O SEU CARRO SE TORNA UM PROJETO UNICO.</h3>
         <img src="img/logo2.png" alt="" >
         </div>
-        <form action="">
+        <form action="https://api.staticforms.xyz/submit" method="post">
+        <input type="hidden" name="accessKey" value="d02d2418-d928-490f-9d04-c64e064aac38">
         <H3>NOME</H3>
-         <input type="text">
+         <input type="text" name="name">
          <H3>NUMERO</H3>
-         <input type="number" >
+         <input type="number" name="phone">
          <H3>EMAIL</H3>
-         <input type="text" >
+         <input type="text" name="email" >
          <H3>DUVIDAS SOBRE O PROJETO</H3>
-         <input type="text"  id="div4input4" style="height: 120px ;">
-         <a href="#">ENVIAR</a>
+         <input type="text"  id="div4input4" name="message" style="height: 120px ;">
+         <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/home.html#">
+         <button>ENVIAR</button>
         </form>
         
     </div>
