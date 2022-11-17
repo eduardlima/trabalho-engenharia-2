@@ -9,18 +9,21 @@ body{
         background-size: cover;
         align-items: center;
         justify-content: center;
-        background-image: url('../img/imgheaderfeedback.png');
 }
-
+#img1{
+    width: 100%;
+    position: absolute;
+}
 header{
+    position: relative;
     width: 100%;
 }
 menu{
     color: white;
     text-align: center;
     width: auto;
-    padding-top: 10px;
-    font-family: 'Montserrat';
+    padding-top: 3%;
+    font-family: 'arial';
     font-weight: bold;
 }
 #UserIcon{
@@ -43,23 +46,62 @@ a{
 a:hover{
     text-decoration: none;
 }
-#div2{
+#div1{
+    position: relative;
+    margin-top: 30%;
+    text-align: center;
     height: 50%;
 }
-#img{
-    margin-top: 150px;
+#div1 img{
+    padding: 2%;
 }
-#img section{
-    height: 328px;
-    background-size: 100%;
+#div2{
+    height: 50%;
+    display: flex;
+    margin-top: 40%;
+    background-color: #202020;
 }
-#bodykit{
-    background-image: url(../img/bodykit.png);
+#div2 img{
+    margin-left: 20%;
+    height: 40px;
 }
-#pintura{
-    background-image: url(../img/pintura.jpg);
-    padding-left: 00px;
+#div2 li{
+    padding: 10px;
+    font-size: 20px;
+    color: white;
 }
-#performance{
-    background-image: url(../img/performance.png);
+#div2 section{
+    width: 45%;
+}
+#relato{
+    margin-top: 5%;
+    width: 55%;
+    text-align: center;
+}
+#relato h4{
+    color: #D51E00 ;
+}
+#relato h5{
+    color: white;
+}
+footer{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #181818;
+    height: 500px;
+    display: flex;
+    color: white;
+}
+footer section{
+    padding-top: 10%;
+    width: 33%;
+    text-align: center;
+}
+footer h3{
+    font-size: 25px;
+    letter-spacing: 1px;
+    font-family: 'Pervitina dex';
+}
+footer a{
+    display: block;
+    font-family: 'montserrat';
 }

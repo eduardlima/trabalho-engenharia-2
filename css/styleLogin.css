@@ -35,7 +35,7 @@ body{
 }
 #bt{
     background-color: #D51E00;
-    font-family: 'Chopsic';
+    font-family: 'arial';
     font-size: 22px;
     margin-left: 730px;
     margin-top: 269px;
@@ -45,7 +45,7 @@ body{
 }
 #bt1{
     background-color: #D51E00;
-    font-family: 'Chopsic';
+    font-family: 'arial';
     font-size: 22px;
     margin-left: 8px;
     margin-top: 270px;
@@ -60,13 +60,13 @@ body{
     margin-left: 800px;
     text-align: center;
     font-size: 25px;
-    font-family: 'Montserrat';
+    font-family: 'arial';
     font-weight: bold;
     top: 110px;
 }
 #bt2{
     background-color: #D51E00;
-    font-family: 'Chopsic';
+    font-family: 'arial';
     font-size: 22px;
     margin-left: 860px;
     margin-top: 245px;
