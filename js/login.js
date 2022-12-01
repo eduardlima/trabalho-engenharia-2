@@ -1,41 +1,40 @@
-function login(){
-    let email = document.getElementById('email').value;
-    let password = document.getElementById('password').value;
-  
-   const user = JSON.parse(window.localStorage.getItem(email));
+function login() {
+  let email = document.getElementById("email").value;
+  let password = document.getElementById("password").value;
 
-   if(user.email === email && user.password === password) {
-    localStorage.setItem("acesso", true)
-    location.href = "home.html";
-    return
-    }
+  const user = JSON.parse(window.localStorage.getItem(email));
 
-   alert('usuario ou senha incorreta')
+  if (user.email === email && user.password === password) {
+    localStorage.setItem("acesso", true);
+    location.href = "index.html";
+    return;
+  }
+
+  alert("usuario ou senha incorreta");
 }
 
-function register(){
+function register() {
+  let email = document.getElementById("email").value;
+  let password = document.getElementById("senha").value;
+  let name = document.getElementById("name").value;
 
-    let email = document.getElementById('email').value;
-    let password = document.getElementById('senha').value;
-    let name = document.getElementById('name').value;
-    
-    if(!email || !password || !name) {
-        alert(`Digite todos os campos`)
-    }
-
-    const person = {
-      email,
-      password,
-      name,
+  if (!email || !password || !name) {
+    alert(`Digite todos os campos`);
   }
+
+  const person = {
+    email,
+    password,
+    name,
+  };
 
   const userExists = JSON.parse(window.localStorage.getItem(email));
 
-  if(userExists) {
-    alert('Usuário já cadastrado')
-    return
+  if (userExists) {
+    alert("Usuário já cadastrado");
+    return;
   }
-  
+
   window.localStorage.setItem(email, JSON.stringify(person));
   location.href = "login.html";
 }
