@@ -1,0 +1,17 @@
+name: Deploy the static file to GitHub Page
+on: [push]
+jobs:
+
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    steps:
+    - name: checkout
+      uses: actions/checkout@v1
+
+    - name: deploy docs
+      uses: ./
+      with:
+        username: eduardlima
+        password: @Cicera123
+        remote_url: https://github.com/eduardlima/trabalho-engenharia-2.git
